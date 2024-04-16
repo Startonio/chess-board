@@ -55,6 +55,7 @@ function drawChess() {
 
       if (figure[i] !== undefined && figure[i][j] !== undefined) {
         block.style.backgroundImage = 'url(сhess_symbols_set_.png)';
+        block.style.backgroundPosition = figure[i][j];
       }
       mainBlockChess.appendChild(block);
       flag = !flag;
